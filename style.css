@@ -64,3 +64,54 @@
 .btn-hire{
     color: red;
 }
+/* service container styles */
+.service-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+}
+
+.service-btn{
+    color: gray;
+    border-radius: 25px;
+
+}
+.service-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.service-description{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.author-img-des{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid red;
+    justify-content: space-around;
+}
+
+.more-details{
+    padding: 20px;
+}
+.more-btn{
+    color: red;
+    border-radius: 25px;
+    position: absolute;
+
+}
