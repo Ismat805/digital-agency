@@ -89,7 +89,7 @@
 }
 .service-description{
     font-size: 20px;
-    width: 50%;
+    width: 75S%;
     padding: 10px;
 }
 .author-details{
@@ -144,6 +144,29 @@
     width: 50%;
 }
 
-.test{
+.call-icon{
+    width: 120px;
+}
+.phone-call-details{
+    display: flex;
+}
+.appointment-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: red; 
+  padding: 10px; 
+  color: white;
+  margin: auto;
+  border-left: 1px solid grey;
+  margin-top: -70px;
+}
+.apn-btn{
     color: red;
+    border-radius: 25px;
+}
+.app-desc{
+    width: 75%;
+    border-left: 4px solid grey;
 }
